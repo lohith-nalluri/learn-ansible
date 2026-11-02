@@ -1,0 +1,12 @@
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "dob": "1990-01-01",
+    "email": "john.doe@example.com",
+    "address": [{
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    }]
+}
