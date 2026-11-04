@@ -1,0 +1,19 @@
+- name: course information
+  hosts: local
+  connection: local
+  vars:
+    course: "AIOps with DevSecOps on AWS" #String
+    duration: 3 #Integer
+    is_learner: true #Boolean
+    topics: #List
+      - Ansible
+      - Terraform
+      - Jenkins
+    more_info: #Dictionary
+      trainer: "Sivakumar Reddy M"
+      learner: "Sai Ram Lohith Nalluri"
+      duration: "03 days"
+  tasks:
+  - name: print the course information
+    debug:
+      msg: "Hi, I am learning {{ course }} from {{ more_info.trainer }}, duration is {{ more_info.duration }}. Topics are {{ topics }}. Is learner? {{ is_learner }}"
