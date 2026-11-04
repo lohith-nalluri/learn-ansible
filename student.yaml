@@ -1,0 +1,11 @@
+- first_name: John
+  last_name: Doe
+  age: 20
+  major: Computer Science
+  courses:
+    - name: Introduction to Programming
+      code: CS101
+      credits: 3
+    - name: Data Structures
+      code: CS201
+      credits: 4
